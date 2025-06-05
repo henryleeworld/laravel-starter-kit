@@ -1,7 +1,14 @@
 @props(['active' => false, 'title' => '', 'icon' => 'fas-list'])
 
 <li x-data="{ open: {{ $active ? 'true' : 'false' }} }">
-    <button @click="open = !open" @class([
+    <button @click="
+        if (sidebarOpen) {
+            open = !open;
+        } else {
+            temporarilyOpenSidebar();
+            open = true;
+        }
+    " @class([
         'flex items-center justify-between w-full px-3 py-2 text-sm rounded-md hover:bg-sidebar-accent hover:text-sidebar-accent-foreground',
         'bg-sidebar-accent text-sidebar-accent-foreground font-medium' => $active,
         'hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sidebar-foreground' => !$active,
@@ -18,7 +25,6 @@
         </svg>
     </button>
 
-    <!-- Level 2 submenu -->
     <div x-show="open && sidebarOpen" class="mt-1 ml-4 space-y-1">
         {{ $slot }}
     </div>
