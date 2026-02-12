@@ -39,14 +39,17 @@ $ php artisan test
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Tm3ZA5f.png)
+![](https://i.imgur.com/lXZZjmk.png)
 > 檢查程式碼是否如預期般執行
 
-![](https://i.imgur.com/bQg23Si.png)
+![](https://i.imgur.com/YfIJ5fo.png)
 > 建立新的帳號
 
-![](https://i.imgur.com/a0CWUi6.png)
+![](https://i.imgur.com/LFe9exS.png)
 > 使用現有的帳號登入後，進入控制面板
 
-![](https://i.imgur.com/UQip5dm.png)
+![](https://i.imgur.com/blO1JzU.png)
 > 管理使用者的個人資料
+
+![](https://i.imgur.com/fYgta3Q.png)
+> 管理使用者偏好的外觀主題
