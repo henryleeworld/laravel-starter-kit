@@ -1,4 +1,4 @@
-# Laravel 12 入門套件
+# Laravel 13 入門套件
 
 入門套件採用圖示集和 Font Awesome 建置，所有後端和前端代碼都存在於您的應用程式內，以實現完全自訂。
 
@@ -39,17 +39,17 @@ $ php artisan test
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/lXZZjmk.png)
+![](https://i.imgur.com/zL3rvUQ.png)
 > 檢查程式碼是否如預期般執行
 
-![](https://i.imgur.com/YfIJ5fo.png)
+![](https://i.imgur.com/HvVLPR9.png)
 > 建立新的帳號
 
-![](https://i.imgur.com/LFe9exS.png)
+![](https://i.imgur.com/Ecz2LGt.png)
 > 使用現有的帳號登入後，進入控制面板
 
-![](https://i.imgur.com/blO1JzU.png)
+![](https://i.imgur.com/F2PsJM9.png)
 > 管理使用者的個人資料
 
-![](https://i.imgur.com/fYgta3Q.png)
+![](https://i.imgur.com/017ei8R.png)
 > 管理使用者偏好的外觀主題
